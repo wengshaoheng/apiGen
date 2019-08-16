@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mars.apigen</groupId>
+  <artifactId>apiGen</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+  	<module>apiGen-common</module>
+  	<module>apiGen-api</module>
+  	<module>apiGen-service</module>
+  	<module>apiGen-domain</module>
+  	<module>apiGen-dao</module>
+  </modules>
+</project>
